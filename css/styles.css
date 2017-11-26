@@ -1,0 +1,60 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* main site header styling */
+
+.main-header {
+    background-color: #edeff1;
+}
+
+.main-header .container {
+    box-sizing: border-box;
+    padding: 50px 15px;
+}
+
+.main-header .main-logo {
+    float: left;
+}
+
+.main-header .navigation-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float: right;
+}
+
+.main-header .navigation-list li {
+    float: left;
+}
+
+.main-header .navigation-list a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 17px 23px;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #31353e;
+}
+
+.main-header .navigation-list a:hover {
+    background-color: #f13200;
+    border-radius: 25px;
+    color: #edeff1;
+}
