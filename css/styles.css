@@ -189,7 +189,7 @@ body {
     font-family: "Roboto Slab", serif;
     font-size: 24px;
     font-weight: 700;
-    margin: 0 0 20px;
+    margin: 0 0 15px;
 }
 
 .our-news .food-article p {
@@ -257,7 +257,7 @@ body {
     color: #f3f4f6;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.2);
-    padding: 20px 240px 20px 36px;
+    padding: 17px 240px 19px 34px;
 }
 
 .signup-form input[type="submit"] {
@@ -265,7 +265,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 20px 74px;
+    padding: 17px 74px 19px;
     cursor: pointer;
 }
 
@@ -283,4 +283,77 @@ body {
 
 :-moz-placeholder { /* Firefox 18- */
     color: #f3f4f6;
+}
+
+/* main footer styling */
+
+.main-footer {
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.secondary-navigation {
+    background-color: #e85000;
+}
+
+.secondary-navigation .container {
+    padding: 100px 0 80px;
+    list-style-type: none;
+}
+
+.secondary-navigation .outer-list-item {
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+}
+
+.inner-nav-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.inner-nav-list li {
+    margin-bottom: 18px;
+}
+
+.inner-nav-list li:last-of-type {
+    margin-bottom: 0;
+}
+
+.inner-nav-list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.main-footer .copyright {
+    padding-bottom: 100px;
+    background-image: url("../img/burger-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.copyright .container {
+    padding: 90px 0 100px;
+}
+
+.main-footer .copyright p {
+    font-family: "Proxima Nova", sans-serif;
+    margin: 0 0 10px;
+}
+
+.main-footer .copyright p:last-of-type {
+    margin: 0 0 43px;
+}
+
+.main-footer .copyright a {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
 }
