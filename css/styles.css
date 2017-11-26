@@ -58,3 +58,90 @@ body {
     border-radius: 25px;
     color: #edeff1;
 }
+
+/* section "introduction" styling */
+
+.introduction {
+    color: #ffffff;
+    position: relative;
+}
+
+.introduction .interior-photo {
+    width: 100%;
+    height: auto;
+}
+
+.introduction .outer-container {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+}
+
+.introduction .container {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.introduction .intro-heading,
+.introduction .intro-description {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    font-family: "Roboto Slab", serif;
+}
+
+.introduction .intro-heading {
+    font-size: 72px;
+    font-weight: 300;
+    margin: 0 0 20px;
+}
+
+.introduction .intro-description {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 100px;
+}
+
+.introduction .food-menu {
+    padding: 30px 0 0;
+    margin: 0 0 80px;
+    list-style-type: none;
+}
+
+.introduction .food-menu li {
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+}
+
+.introduction .food-menu img {
+    width: 134px;
+    height: auto;
+    margin-bottom: 35px;
+}
+
+.introduction .food-menu h5 {
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 30px;
+}
+
+.introduction .food-menu p {
+    padding: 0 20px;
+    margin: 0;
+    line-height: 30px;
+}
+
+.introduction .read-more-btn {
+    color: #612316;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 61px;
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+}
